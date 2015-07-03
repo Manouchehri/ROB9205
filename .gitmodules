@@ -1,0 +1,3 @@
+[submodule "CRS-Robotics"]
+	path = CRS-Robotics
+	url = https://gitlab.com/Manouchehri/CRS-Robotics
