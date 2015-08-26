@@ -1,0 +1,113 @@
+Industrial robots require FIVE major components:
+
+- Driver - BASIC
+- Controller - BASIC
+- Arm - BASIC
+- End effector
+- Sensors
+
+Drive
+Can be electrical, pneumatic or hydracilc. Hyrauilc is the most powful and fastest, followed by electric and pneumatic
+
+Controller
+Has a microprocessor, sends and receives signals from devices. It interprets the user written porgram
+
+Arm
+It moves the end effector into place. Three major operating components: 
+- Motors
+- Encoders
+- Harmonic drives (gear thingy)
+
+End Effector
+Also called End of Arm Tooling and End of Arm device. Gripper, welder, riveting gun, drill, pnematic tip, paint gun, etc are all examples of possible effectors.
+
+Sensors (encoders)
+We're not talking about the usual sensors used in our projects, but rather the sensors on the (servo?) motors on the robot. They send back information to the controller to let it know the position and speed
+
+Types of robots
+
+Cylindrical
+Two linar axis (up and side to side)
+One rotary axis (spinning in a circle basically)
+
+It's nice and compact
+
+
+Spherical
+One Liner axis (up and down)
+Two rotary axes (pretty much anywhere)
+
+Used for welding and handling
+
+Castesian
+Three linar axis, X, Y, Z
+
+Can do nearly anything if you set it up right. Don't buy 3-axis if you only need 2
+
+Joinsted Arm Robots (Articulated) - CRS
+
+Three rotary axis
+
+Great for welding and assembly. Can be a massive pain to program though
+
+SCARA - Selective Compliance Assembly Robot Arm
+
+It's a articulated + cylindrical combo. Often seen in electronic assembly. Much faster than articulated and more expensive than castesian.
+
+Degrees of freedom = number of axes. To count as a "robot" it needs o have at least 3 degrees of freedom in the arm. If there's more than that, it's usually referring to how flexiable the wrist is.
+
+For information, look at:
+People who made/work on the equipment
+Internet
+Company contacts
+Manuals
+
+User's Manual often contains:
+Safety, e-stops, reset and recovery
+Model # and maker
+Tech specs of arm, controller, teach pendan and other stuff
+Setup information
+Mainenance
+Troubleshooting
+I/O and wiring diagrams
+
+Programming manual probably contains: 
+Langauge
+Instructions
+Syntax
+
+SAFETY!
+
+Visual inspection before startup
+Get rid of clutter and debris
+Remove any jewelry
+Do not wear loose clothing that can get caught
+Do not EVER ENTER THE WORKING RADIUS while it's operating
+No play fighting with others or the robot (stuff is expensive, don't break it)
+No pushing/shoving/horseplay
+.....Do not use for surgery (apparently this is really in a few manuals)
+No food or water near the machine
+
+Preventative Maintenance
+Check for loose bolts (Lockheed dropped one of NASA's satellite)
+Move stuff that's in the working radius
+Check for damaged/loose cables
+Make sure the controller is on
+Check the motor or arm power 
+Listen/check for fans
+Listen for noises from controller or arm
+Feel for any unusal vibrations that may be coming off the arm
+
+PHYSICAL SAFETY DEVICES
+
+Light curtains
+You got a transmitter and receiver
+Breaks the intrared beam if you block the light. We already covered these in DC/AC motors
+
+Safety Interlocks
+
+Often they enclose robots. Normally closed contacts placed on all the access points, and in series. If any are open, the robot will shut down
+
+Pressure-sensitive mats
+Name describes itself. Can be used to detect falling items as well`
+
